@@ -1,0 +1,16 @@
+channels:
+  - memfault
+  - timvideos
+  - conda-forge
+  - defaults
+dependencies:
+  - cmake=3.16.4
+  - ninja=1.10.0
+  - make=4.3  
+  - gcc-arm-none-eabi=8.2019.q3.update
+  - ccache=3.7.7  
+  - openocd=0.10.0  
+  - python=3.8.2
+  - pip
+  - pip:
+      - pyocd==0.25.0
